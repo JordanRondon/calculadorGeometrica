@@ -40,12 +40,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.txtPerimetroCuadrilatero = new System.Windows.Forms.TextBox();
+            this.txtAreaCuadrilatero = new System.Windows.Forms.TextBox();
+            this.txtAlturaCuadrilatero = new System.Windows.Forms.TextBox();
+            this.txtBaseCuadrilatero = new System.Windows.Forms.TextBox();
+            this.btnPerimetroCuadrilatero = new System.Windows.Forms.Button();
+            this.btnAreaCuadrilatero = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -159,12 +159,12 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Controls.Add(this.textBox7);
-            this.groupBox2.Controls.Add(this.textBox8);
-            this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Controls.Add(this.txtPerimetroCuadrilatero);
+            this.groupBox2.Controls.Add(this.txtAreaCuadrilatero);
+            this.groupBox2.Controls.Add(this.txtAlturaCuadrilatero);
+            this.groupBox2.Controls.Add(this.txtBaseCuadrilatero);
+            this.groupBox2.Controls.Add(this.btnPerimetroCuadrilatero);
+            this.groupBox2.Controls.Add(this.btnAreaCuadrilatero);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label7);
@@ -174,89 +174,91 @@
             this.groupBox2.Size = new System.Drawing.Size(647, 174);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "CUADRILATERO";
             // 
-            // textBox5
+            // txtPerimetroCuadrilatero
             // 
-            this.textBox5.Location = new System.Drawing.Point(462, 35);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(105, 20);
-            this.textBox5.TabIndex = 9;
+            this.txtPerimetroCuadrilatero.Location = new System.Drawing.Point(478, 35);
+            this.txtPerimetroCuadrilatero.Name = "txtPerimetroCuadrilatero";
+            this.txtPerimetroCuadrilatero.Size = new System.Drawing.Size(105, 20);
+            this.txtPerimetroCuadrilatero.TabIndex = 9;
             // 
-            // textBox6
+            // txtAreaCuadrilatero
             // 
-            this.textBox6.Location = new System.Drawing.Point(302, 32);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(105, 20);
-            this.textBox6.TabIndex = 8;
+            this.txtAreaCuadrilatero.Location = new System.Drawing.Point(302, 32);
+            this.txtAreaCuadrilatero.Name = "txtAreaCuadrilatero";
+            this.txtAreaCuadrilatero.Size = new System.Drawing.Size(105, 20);
+            this.txtAreaCuadrilatero.TabIndex = 8;
             // 
-            // textBox7
+            // txtAlturaCuadrilatero
             // 
-            this.textBox7.Location = new System.Drawing.Point(71, 78);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(105, 20);
-            this.textBox7.TabIndex = 7;
+            this.txtAlturaCuadrilatero.Location = new System.Drawing.Point(71, 78);
+            this.txtAlturaCuadrilatero.Name = "txtAlturaCuadrilatero";
+            this.txtAlturaCuadrilatero.Size = new System.Drawing.Size(105, 20);
+            this.txtAlturaCuadrilatero.TabIndex = 7;
             // 
-            // textBox8
+            // txtBaseCuadrilatero
             // 
-            this.textBox8.Location = new System.Drawing.Point(71, 32);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(105, 20);
-            this.textBox8.TabIndex = 6;
+            this.txtBaseCuadrilatero.Location = new System.Drawing.Point(71, 32);
+            this.txtBaseCuadrilatero.Name = "txtBaseCuadrilatero";
+            this.txtBaseCuadrilatero.Size = new System.Drawing.Size(105, 20);
+            this.txtBaseCuadrilatero.TabIndex = 6;
             // 
-            // button3
+            // btnPerimetroCuadrilatero
             // 
-            this.button3.Location = new System.Drawing.Point(478, 77);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(81, 21);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnPerimetroCuadrilatero.Location = new System.Drawing.Point(478, 77);
+            this.btnPerimetroCuadrilatero.Name = "btnPerimetroCuadrilatero";
+            this.btnPerimetroCuadrilatero.Size = new System.Drawing.Size(81, 21);
+            this.btnPerimetroCuadrilatero.TabIndex = 5;
+            this.btnPerimetroCuadrilatero.Text = "Calcular";
+            this.btnPerimetroCuadrilatero.UseVisualStyleBackColor = true;
+            this.btnPerimetroCuadrilatero.Click += new System.EventHandler(this.btnPerimetroCuadrilatero_Click);
             // 
-            // button4
+            // btnAreaCuadrilatero
             // 
-            this.button4.Location = new System.Drawing.Point(279, 77);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(81, 21);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnAreaCuadrilatero.Location = new System.Drawing.Point(279, 77);
+            this.btnAreaCuadrilatero.Name = "btnAreaCuadrilatero";
+            this.btnAreaCuadrilatero.Size = new System.Drawing.Size(81, 21);
+            this.btnAreaCuadrilatero.TabIndex = 4;
+            this.btnAreaCuadrilatero.Text = "Calcular";
+            this.btnAreaCuadrilatero.UseVisualStyleBackColor = true;
+            this.btnAreaCuadrilatero.Click += new System.EventHandler(this.btnAreaCuadrilatero_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(421, 35);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.Size = new System.Drawing.Size(51, 13);
             this.label5.TabIndex = 3;
-            this.label5.Text = "label5";
+            this.label5.Text = "Perimetro";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(261, 35);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.Size = new System.Drawing.Size(29, 13);
             this.label6.TabIndex = 2;
-            this.label6.Text = "label6";
+            this.label6.Text = "Area";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(30, 85);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.Size = new System.Drawing.Size(34, 13);
             this.label7.TabIndex = 1;
-            this.label7.Text = "label7";
+            this.label7.Text = "Altura";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(30, 35);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.Size = new System.Drawing.Size(31, 13);
             this.label8.TabIndex = 0;
-            this.label8.Text = "label8";
+            this.label8.Text = "Base";
             // 
             // Form1
             // 
@@ -288,12 +290,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox txtPerimetroCuadrilatero;
+        private System.Windows.Forms.TextBox txtAreaCuadrilatero;
+        private System.Windows.Forms.TextBox txtAlturaCuadrilatero;
+        private System.Windows.Forms.TextBox txtBaseCuadrilatero;
+        private System.Windows.Forms.Button btnPerimetroCuadrilatero;
+        private System.Windows.Forms.Button btnAreaCuadrilatero;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;

@@ -9,3 +9,14 @@ D:\GIT\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometric
 D:\GIT\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometrica.csproj.CoreCompileInputs.cache
 D:\GIT\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometrica.exe
 D:\GIT\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometrica.pdb
+C:\Users\Jordan\Desktop\proyecto\calculadorGeometrica\calculadoraGeometrica\bin\Debug\calculadoraGeometrica.exe.config
+C:\Users\Jordan\Desktop\proyecto\calculadorGeometrica\calculadoraGeometrica\bin\Debug\calculadoraGeometrica.exe
+C:\Users\Jordan\Desktop\proyecto\calculadorGeometrica\calculadoraGeometrica\bin\Debug\calculadoraGeometrica.pdb
+C:\Users\Jordan\Desktop\proyecto\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometrica.csproj.AssemblyReference.cache
+C:\Users\Jordan\Desktop\proyecto\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometrica.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jordan\Desktop\proyecto\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometrica.Form1.resources
+C:\Users\Jordan\Desktop\proyecto\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometrica.Properties.Resources.resources
+C:\Users\Jordan\Desktop\proyecto\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometrica.csproj.GenerateResource.cache
+C:\Users\Jordan\Desktop\proyecto\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometrica.csproj.CoreCompileInputs.cache
+C:\Users\Jordan\Desktop\proyecto\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometrica.exe
+C:\Users\Jordan\Desktop\proyecto\calculadorGeometrica\calculadoraGeometrica\obj\Debug\calculadoraGeometrica.pdb
